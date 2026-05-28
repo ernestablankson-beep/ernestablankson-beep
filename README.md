@@ -27,7 +27,7 @@ A NIST AI RMF 1.0&ndash;aligned program for discovering, inventorying, assessing
 
 > *"How would you measure cybersecurity risk and report it to the board?"*
 
-A director-level metrics program that translates security telemetry into business decisions. Ships a **KPI/KRI methodology** (ISO/IEC 27004 measurement construct), a **risk appetite framework** (6 categories, 5-level appetite scale, quantitative annex), a **55-metric catalog** across 11 domains with NIST CSF 2.0 mapping, a **threshold methodology**, a **Power BI build pack** (data model + full DAX measure library + page-by-page layout + interactive HTML mockup), a **5x5 interactive heatmap**, a **sample quarterly board pack**, and an **8-sheet Excel workbook** with a re-generation script.
+A metrics program that translates security telemetry into business decisions. Ships a **KPI/KRI methodology** (ISO/IEC 27004 measurement construct), a **risk appetite framework** (6 categories, 5-level appetite scale, quantitative annex), a **55-metric catalog** across 11 domains with NIST CSF 2.0 mapping, a **threshold methodology**, a **Power BI build pack** (data model + full DAX measure library + page-by-page layout + interactive HTML mockup), a **5x5 interactive heatmap**, a **sample quarterly board pack**, and an **8-sheet Excel workbook** with a re-generation script.
 
 **Aligned to**: NIST CSF 2.0, NIST SP 800-55r2, ISO/IEC 27004:2016, FAIR, COSO ERM / ISO 31000, SR 11-7, DORA, NYDFS.
 **License**: Apache 2.0. **Tag**: v1.0.0.
@@ -69,7 +69,7 @@ A reasonable adopter would fork all four into a private org, brand them, calibra
 
 ## Areas of focus
 
-- **GRC at director level.** Standing up or modernizing risk, control, and assurance functions.
+- **GRC.** Standing up or modernizing risk, control, and assurance functions.
 - **Continuous monitoring / CA-7.** Telemetry-based assurance; OSCAL-friendly catalogs; FedRAMP-compatible cadences.
 - **Cyber risk reporting.** Board, audit committee, risk committee. SEC Item 106 / Item 1.05-ready.
 - **AI governance.** NIST AI RMF and EU AI Act readiness; AI asset inventory and lifecycle controls.
