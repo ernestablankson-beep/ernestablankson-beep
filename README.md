@@ -8,7 +8,7 @@
 
 **Director-level cybersecurity, GRC, and AI governance.** I build the programs that turn security from a project portfolio into an operating rhythm &mdash; risk appetite the board approves, controls the auditor can trace, dashboards leadership reads, and evidence pipelines that work in production.
 
-This profile pins three end-to-end, open-source programs I designed and wrote. Each is the answer to a question that comes up in every director-level interview.
+This profile pins four end-to-end, open-source programs I designed and wrote. Each is the answer to a question that comes up in every director-level interview.
 
 ---
 
@@ -41,17 +41,29 @@ An end-to-end ConMon program. Ships a **strategy** anchored to NIST SP 800-137's
 **Aligned to**: NIST SP 800-137 / 800-137A, NIST SP 800-53 Rev. 5 (CA-7 anchor), NIST CSF 2.0, OSCAL, FedRAMP CONMON, DORA, NYDFS, PCI DSS 4.0.
 **License**: Apache 2.0. **Tag**: v1.0.0.
 
+### 4. [Risk Acceptance Governance Program](https://github.com/ernestablankson-beep/Risk-Acceptance-GOV-Program)
+
+> *"How do you stop risk acceptance from becoming a sticking plaster?"*
+
+A strict, defensible, audit-ready program for the rare cases when risk acceptance is genuinely the right call &mdash; and a set of disciplines that keep the rest from sneaking in through the side door. Built against the position I took in *[Risk Acceptance: Sticking Plaster Solution](https://www.isc2.org/Insights/2025/10/risk-acceptance-sticking-plaster-solution)* (ISC2 Insights, October 2025): acceptance is the **last** option in the NIST 800-39 hierarchy (avoid · mitigate · transfer · accept), not the most convenient one.
+
+Ships a **policy** with seven binding principles and eight named prohibitions, a **7-step intake-to-retirement workflow** with SLAs and bounce-back rules, a **Three Lines governance model** with independence safeguards, a **4-tier approval matrix** where authority always matches residual risk, a **15-state lifecycle machine** where silence at expiry = automatic expiry (not roll-over), **~25 KRIs** for portfolio governance, a **20-pattern compensating control catalog** (across six families, with seven explicit anti-patterns), four **fully worked memos** spanning all tiers, three **architecture diagrams**, an **interactive dashboard mockup**, a **12-slide program brief**, an **Excel workbook** (7 sheets) with regeneration script, six **Python utilities** (stdlib-only) including a memo analyzer that flags principle violations, and a **NIST mapping** to 800-39, 800-53 Rev. 5, CSF 2.0, ISO 31000, COSO ERM, and FedRAMP CONMON POAM interaction.
+
+**Aligned to**: NIST SP 800-39, NIST SP 800-53 Rev. 5 (PM-9, RA-3, RA-7, CA-5), NIST CSF 2.0 (GV.RM, GV.OV, GV.PO, GV.SC), ISO 31000:2018, COSO ERM 2017, IIA Three Lines (2020 update), FedRAMP CONMON.
+**License**: Apache 2.0. **Tag**: v1.0.0.
+
 ---
 
-## How the three connect
+## How the four connect
 
 These aren't isolated artifacts &mdash; together they form a coherent **GRC operating model**:
 
 - The **AI Governance Framework** says what the organization is allowed to do with AI.
 - The **Cybersecurity Risk Metrics Program** says what posture is acceptable across cyber risk categories and how it's reported.
 - The **Continuous Monitoring GRC** program produces the ongoing evidence that the first two are being honored.
+- The **Risk Acceptance Governance Program** governs the rare cases where the other three surface a residual risk the organization chooses to operate with &mdash; and prevents that decision from quietly becoming a permanent shortcut.
 
-A reasonable adopter would fork all three into a private org, brand them, calibrate to their appetite, and have a defensible v1 of an enterprise GRC program in a single quarter.
+A reasonable adopter would fork all four into a private org, brand them, calibrate to their appetite, and have a defensible v1 of an enterprise GRC program in a single quarter.
 
 ---
 
@@ -61,6 +73,7 @@ A reasonable adopter would fork all three into a private org, brand them, calibr
 - **Continuous monitoring / CA-7.** Telemetry-based assurance; OSCAL-friendly catalogs; FedRAMP-compatible cadences.
 - **Cyber risk reporting.** Board, audit committee, risk committee. SEC Item 106 / Item 1.05-ready.
 - **AI governance.** NIST AI RMF and EU AI Act readiness; AI asset inventory and lifecycle controls.
+- **Risk acceptance done honestly.** Time-bound, compensating-control-required, portfolio-governed; no permanent acceptances; no silent roll-overs.
 - **Metric design.** ISO/IEC 27004 measurement constructs; appetite-derived thresholds; the discipline of retiring vanity metrics.
 - **Documentation that survives audit.** Specifications, controls, evidence flows, and crosswalks that a third-party auditor can read end-to-end.
 
