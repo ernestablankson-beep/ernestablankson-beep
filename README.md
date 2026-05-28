@@ -8,7 +8,7 @@
 
 I build programs that turn security from a project portfolio into an operating rhythm &mdash; risk appetite the board approves, controls the auditor can trace, dashboards leadership reads, and evidence pipelines that work in production.
 
-This profile pins four end-to-end, open-source programs I designed and wrote. Each is the answer to a question that comes up in every director-level interview.
+This profile pins four end-to-end, open-source programs I designed and wrote.
 
 ---
 
